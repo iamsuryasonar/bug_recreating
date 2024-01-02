@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <div className='grid place-items-center'>
-        <div class="columns-2 md:columns-3 lg:columns-4">
+      <div className='w-screen grid place-items-center'>
+        <div class=" max-w-4xl columns-1 md:columns-2">
           <img class="mb-4" src="https://source.unsplash.com/random/1" />
           <img class="mb-4" src="https://source.unsplash.com/random/2" />
           <img class="mb-4" src="https://source.unsplash.com/random/3" />
