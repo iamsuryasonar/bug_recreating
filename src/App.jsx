@@ -58,7 +58,7 @@ function App() {
               <div key={item.id} className='relative w-full h-full grid mb-4 rounded-lg'>
                 <img className='' src={item.image} loading='lazy'></img>
                 {/* replace below 'flex justify-center items-center' to -> 'grid place-content-center' that will fix the desktop mode browser tab hang issue */}
-                <div className='grid place-content-center absolute top-0 left-0 right-0 bottom-0  bg-black opacity-0 hover:opacity-65 transition-opacity duration-300'>
+                <div className='flex justify-center items-center absolute top-0 left-0 right-0 bottom-0  bg-black opacity-0 hover:opacity-65 transition-opacity duration-300'>
                   {/* this div needs to be centered */}
                   <div className='grid p-6 '>
                     <p className='place-self-end text-white font-normal font-base' >{item.quote}</p>
