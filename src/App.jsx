@@ -57,8 +57,12 @@ function App() {
 
   ]
 
+  const [value, setValue] = useState(false);
+
   return (
     <>
+      <button onClick={() => setValue(!value)} className='p-6 bg-black text-white'>click me</button>
+      {value && <div className='bg-green-200 w-full h-10 p-6'>button clicked</div>}
       <div className='w-screen my-20 grid place-items-center'>
         <div class=" max-w-4xl columns-1 md:columns-2 px-6 gap-4">
           {gallery.map((item, index) => {
