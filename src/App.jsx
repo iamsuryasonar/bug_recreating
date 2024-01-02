@@ -69,8 +69,8 @@ function App() {
             return (
               <div key={item.id} className='relative w-full h-full grid mb-4 rounded-lg'>
                 <img className='' src={item.image} loading='lazy'></img>
-                {/* opacity-0 hover:opacity-65 transition-opacity duration-300 */}
-                <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center '>
+                {/*top-0 left-0 right-0 bottom-0 flex items-center justify-center  opacity-0 hover:opacity-65 transition-opacity duration-300 */}
+                <div className='absolute '>
                   <div className='grid p-6'>
                     <p className='place-self-end text-white font-normal font-base' >{item.quote}</p>
                     <p className='place-self-end text-white font-light text-sm'> {item.location}</p>
